@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Funnel Display", serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+
+.menu .navbar ul {
+    display: flex;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ce967b;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/pngtree-motorcycle-rider-going-through-the-forest-image_2491232.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* Ocupar toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: antiquewhite;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: antiquewhite;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #5c4b43;
+}
+
+.formulario {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    padding: 30px;
+    border-radius: 8px;
+    font-family: "Funnel Display", sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.controles {
+    width: 100%;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(99, 98, 98, 0.7);
+    font-size: 18px;
+}
+
+.btn-1 {
+    width: 100%;
+    display: block;
+    padding: 11px;
+    background-color: #ce967b;
+    color: antiquewhite;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #5c4b43;
+}
