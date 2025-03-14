@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="../index.html" class="logo">
+                <img src="../img/sport-motorcycle-hand-drawn-silhouette-illustration-for-vintage-logo-design-png.webp" alt="Logo de la Pagina">
+            </a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../paginas/historia.html">Historia</a></li>
+                    <li><a href="../paginas/tipos.html">Tipos</a></li>
+                    <li><a href="../paginas/fabricantes.html">Fabricantes</a></li>
+                </ul>
+            </nav>
+        </div>     
+        
+        <div class="formulario">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingresa tu Nombre">
+                <span class="error" id="errorNombre"></span>
+                
+                <input class="controles" type="text" name="apellidos" id="apellidos" placeholder="Ingresa tu Apellido">
+                <span class="error" id="errorApellido"></span>
+                
+                <input class="controles" type="email" name="correo" id="correo" placeholder="Ingresa tu Correo">
+                <span class="error" id="errorCorreo"></span>
+                
+                <button type="submit" class="btn-1">Enviar</button>
+            </form>
+            <p id="mensajeExito" style="color: green; display: none;">Formulario enviado con éxito.</p>
+        </div>
+    </header>  
+    
+    <script src="../java/formulario.js"></script>
+</body>
+</html>
